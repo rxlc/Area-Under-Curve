@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.app {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.calc {
+    position: absolute;
+    left: 30px;
+    top: 40%;
+    box-sizing: border-box;
+    
+    /* size */
+    height: 160px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #4a474e;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.calc>button {
+    color: #555357;
+    padding: 5px 20px;
+    background-color: #ccd5ae;
+    border-radius: 3px;
+    border: 1px solid #8d8c8f;
+}
+
+.graph {
+    margin: 0px;
+    padding: 0px;
+}
